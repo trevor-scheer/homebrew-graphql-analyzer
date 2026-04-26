@@ -1,28 +1,28 @@
 class GraphqlAnalyzer < Formula
   desc "Fast, Rust-powered GraphQL validation and linting CLI"
   homepage "https://github.com/trevor-scheer/graphql-analyzer"
-  version "0.2.2"
+  version "0.2.3-alpha.0"
   license "MIT"
 
   on_macos do
     on_arm do
       url "https://github.com/trevor-scheer/graphql-analyzer/releases/download/graphql-analyzer-cli/v#{version}/graphql-cli-aarch64-apple-darwin.tar.xz"
-      sha256 "f8481abd422b379b1effd8ab97390ff3eeebdf0ac05e13543254b0b5dca00444"
+      sha256 "74a16b7cf440f11d39917b0f766ba0cdbb4c50b00e3b3e5ac2ec5f3db7734ab3"
     end
     on_intel do
       url "https://github.com/trevor-scheer/graphql-analyzer/releases/download/graphql-analyzer-cli/v#{version}/graphql-cli-x86_64-apple-darwin.tar.xz"
-      sha256 "c2dc83822e5945556032f3977c45c1911be2d0374a7ae7ff863f532c88413d3e"
+      sha256 "d20b996a530275509521152ffc8e01f46deee595e354e3677afef66229d8dd48"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/trevor-scheer/graphql-analyzer/releases/download/graphql-analyzer-cli/v#{version}/graphql-cli-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "126261671789a285b366c57b12cb223e557c0872901901267a9bfbb43c3473cb"
+      sha256 "5c6ff9c1a43f7ee8ff91eb29e6709cc044104961d75ec8d29c8c0529719b9369"
     end
     on_intel do
       url "https://github.com/trevor-scheer/graphql-analyzer/releases/download/graphql-analyzer-cli/v#{version}/graphql-cli-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "2f41931b9dc4e82fa36ee5035fce0f611c7717707826fb2dcdcc031d3e5c56bd"
+      sha256 "0706690e5ccb9f1e7250b9805673ee0c2a6aad6069ffbbb69606f88a62795bf1"
     end
   end
 
